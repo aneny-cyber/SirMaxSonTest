@@ -19,8 +19,8 @@ public class dieScript : MonoBehaviour
     {
 		if (col.gameObject.tag == "Aneny")
         {
-			Destroy(gameObject);
-        }
+			Application.LoadLevel(Application.loadedLevel);
+		}
     }
 	void OnGUI()
 	{
